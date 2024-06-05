@@ -2,8 +2,8 @@ import os
 import xml.etree.ElementTree as ET
 
 # Folder paths
-input_dir = 'C:\\Users\\cengi\\OneDrive\\Masaüstü\\Oturum_2_Etiketler\\VY2_5'  
-output_dir = 'C:\\Users\\cengi\\OneDrive\\Masaüstü\\Last_dt_labels\\VY2_5'  
+input_dir = 'input_folder_path'  
+output_dir = 'output_folder_path'  
   
 # Create output folders if they don't exist
 os.makedirs(output_dir, exist_ok=True)
